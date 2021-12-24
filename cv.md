@@ -50,9 +50,9 @@ I'm haven't experience in IT. My last job was teaching at the Mogilev State Univ
 - Courses:  
 
 
-[CodeBasics](https://ru.code-basics.com/languages/css)  
-[Hexlet](https://ru.hexlet.io/courses/introduction_to_programming)  
-[RS-school](https://app.rs.school/)  
+  [CodeBasics](https://ru.code-basics.com/languages/css)  
+  [Hexlet](https://ru.hexlet.io/courses/introduction_to_programming)  
+  [RS-school](https://rs.school/js-stage0/)  
 ***
 
 ### Language:  
