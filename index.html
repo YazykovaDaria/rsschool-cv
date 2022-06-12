@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="./assets/images.ico">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CV</title>
+</head>
+
+<body>
+    <div class="container">
+        <header class="header">
+            <nav class="nav">
+                <ul class="nav-list">
+                    <li class="nav-item"> <a href="#contacts" class="nav-link link">Contacts</a></li>
+                    <li class="nav-item"><a href="#summary" class="nav-link link">Summary</a></li>
+                    <li class="nav-item"><a href="#skills" class="nav-link link">Skills</a></li>
+                    <li class="nav-item"><a href="#code" class="nav-link link">Code</a></li>
+                    <li class="nav-item"><a href="#courses" class="nav-link link">Courses</a></li>
+                    <li class="nav-item"><a href="#projects" class="nav-link link">Projects</a></li>
+                    <li class="nav-item"><a href="#education" class="nav-link link">Education</a></li>
+                    <li class="nav-item"><a href="#english" class="nav-link link">English</a></li>
+                </ul>
+            </nav>
+        </header>
+        <main class="main">
+            <secrion class="section-profile" id="profile">
+                <div class="profile-img">
+                    <img src="./assets/img/images.img" alt="avatar">
+                </div>
+                <div class="profile-describtion">
+                    <h1 class="profile-title">Yazykova Daria</h1>
+                    <p>Future Front-End Developer</p>
+                </div>
+            </secrion>
+            <div class="wrapper">
+                <section class="section-contacts section" id="contacts">
+                    <h2 class="section-title">Contacts</h2>
+                    <ul class="contact-list list">
+                        <li>Location: Mogilev, Belarus </li>
+                        <li>Discord: Daria-_#7286 </li>
+                        <li>Telegram: @xzxdxb</li>
+                        <li>E-mail: yazykovadasva@gmail.com</li>
+                    </ul>
+                </section>
+                <section class="section-summary section" id="summary">
+                    <h2 class="section-title">Summary</h2>
+                    <div> I hadn't work in IT before. My last job was teaching at the Mogilev State University. I
+                        learn Front-End Development in RSSchool now. </div>
+                </section>
+                <section class="section section-skills" id="skills">
+                    <h2 class="section-title">Skills</h2>
+                    <ul class="skills-list list">
+                        <li>HTML / CSS</li>
+                        <li>JavaScript (basic)</li>
+                        <li>Git / gitHub</li>
+                    </ul>
+                </section>
+                <section class="section section-education" id="education">
+                    <h2 class="section-title">Education</h2>
+                    <p> Mogilev State University named A A Kyleshova,<br> Physical education teacher</p>
+                </section>
+                <section class="section section-code" id="code">
+                    <h2 class="section-title">Code Example</h2>
+                    <code class="code">
+                        const reverse = (str) => { <br>
+                            &nbsp;if (str === '') { <br>
+                                &nbsp;return '';<br>
+                                &nbsp;&nbsp;} else {<br>
+                                    &nbsp;&nbsp;return reverse (str.substr (1)) + str.charAt (0);<br>
+                                    &nbsp;}<br>
+                            };
+        </code>
+                </section>
+                <section class="section section-courses" id="courses">
+                    <h2 class="section-title">Courses</h2>
+                    <ul class="courses-list list">
+                        <li class="courses-item">
+                            <a href="https://ru.code-basics.com/languages/css" class="courses-link link">Code-basics</a>
+                        </li>
+                        <li class="courses-item">
+                            <a href="https://ru.hexlet.io/courses/introduction_to_programming"
+                                class="courses-link link">Hexlet</a>
+                        </li>
+                        <li class="courses-item">
+                            <a href="https://rs.school/js-stage0/" class="courses-link link">RS-school</a>
+                        </li>
+                    </ul>
+                </section>
+                <section class="section section-projects" id="projects">
+                    <h2 class="section-title">Projects</h2>
+                    <a class="link" href="https://yazykovadaria.github.io/rsschool-cv/">CV</a>
+                </section>
+                <section class="section section-english">
+                    <h2 class="section-title" id="english">English</h2>
+                    <p>English level - A2</p>
+                </section>
+            </div>
+        </main>
+
+        <footer class="footer">
+            <a class="footer-link-school" href="https://rs.school/js/">
+                <img class="logo-rs logo" src="./assets/img/logo-rs.svg" alt="RS-school logo">
+            </a>
+            <p class="create-year">&copy; 2022</p>
+            <a class="footer-link-git" href="https://github.com/YazykovaDaria">
+                <img class="logo-git logo" src="./assets/img/githab.jpeg" alt="gitHub logo">
+            </a>
+        </footer>
+    </div>
+</body>
