@@ -106,39 +106,84 @@ html {
 }
 
 body {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
 	font-family: 'PTSans';
+	font-size: 20px;
+}
+
+.section-title {
 	font-size: 30px;
+	padding: 20px 0;
 }
 
 .container {
-	max-width: 1440px;
+	max-width: 1400px;
 	margin: 0 auto;
 }
 
-/*.nav {
-	background-color: lightgoldenrodyellow;
-	max-width: 1440px;
-	margin: 0 auto;
-}
+.header {}
+
+.nav {}
 
 .nav-list {
 	display: flex;
 	justify-content: flex-end;
+	gap: 20px;
 }
 
 .nav-link {
-	padding: 0 40px;
-	line-height: 50px;
-	font-size: 30px;
+	font-size: 20px;
+	color: rgb(43, 39, 39);
 	transition: .3s;
 }
 
 .nav-link:hover {
-	text-decoration: underline;
-	color: rgb(176, 230, 185);
-}*/
+	cursor: pointer;
+	color: rgb(10, 112, 29);
+	transition: .3s;
+}
 
-.what {
+.section-profile {
+	display: flex;
+	justify-content: space-evenly;
+	align-items: center;
+	padding: 10px, 0;
+}
+
+.profile-img {}
+
+.profile-describtion {
+	display: flex;
+	flex-direction: column;
+	gap: 20px;
+}
+
+h1 {
+	font-size: 40px;
+	text-align: center;
+}
+
+.wrapper-contact-summery {
+	display: flex;
+	justify-content: space-between;
+	gap: 40px;
+}
+
+.section-contacts {}
+
+.contact-list {
+	display: flex;
+	flex-direction: column;
+	gap: 10px;
+}
+
+.section-summary {
+	max-width: 500px;
+}
+
+/*.what {
 	padding: 50px 0;
 }
 
@@ -198,4 +243,4 @@ body {
 .footer {
 	margin: 30px auto;
 	max-width: 1440px;
-}
+}*/
