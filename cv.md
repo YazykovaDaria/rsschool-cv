@@ -1,32 +1,32 @@
 # Yazykova Daria
 ***
 
-### Contacts:  
+### Contacts:
 
 
-* Location: Mogilev, Belarus  
+* Location: Mogilev, Belarus
 
-* Discord: Daria-_#7286 
+* Discord: Daria-_#7286
 
-* E-mail: yazykovadasva@gmail.gom  
+* E-mail: yazykovadasva@gmail.com
 
-* Tel: +375298441664  
+* Tel: +375298441664
 ***
 
-### About myself:  
+### About myself:
 I learn Front-End Development in RSSchool and Hexlet-course
 ***
 
-### Skills:  
+### Skills:
 
-* HTML / CSS 
+* HTML / CSS
 
 * JavaScript (basic)
 
 * Git / gitHub
 ***
 
-### Code Example  
+### Code Example
 
 ``` JavaScript
 const reverse = (str) => {
@@ -38,25 +38,23 @@ const reverse = (str) => {
 };
 ```
 
-### Work experience:  
+### Work experience:
 
-I'm haven't experience in IT. My last job was teaching at the Mogilev State University. 
+I'm haven't experience in IT. My last job was teaching at the Mogilev State University.
 ***
 
 ### Education and courses:
 
-- Mogilev State University named A A Kyleshova, Physical education teacher   
+- Mogilev State University named A A Kyleshova, Physical education teacher
 
-- Courses:  
+- Courses:
 
 
-  [CodeBasics](https://ru.code-basics.com/languages/css)  
-  [Hexlet](https://ru.hexlet.io/courses/introduction_to_programming)  
-  [RS-school](https://rs.school/js-stage0/)  
+  [CodeBasics](https://ru.code-basics.com/languages/css)
+  [Hexlet](https://ru.hexlet.io/courses/introduction_to_programming)
+  [RS-school](https://rs.school/js-stage0/)
 ***
 
-### Language:  
+### Language:
 
-English level - A1
-
- 
+English level - A2
